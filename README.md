@@ -20,3 +20,13 @@
      can tell us that probability metric to determine the likelihood that the future data points will fit this linear model. 
   
 ## Summary Statistics on Suspension Coils
+- total_summary dataframe
+
+![Deliverable2_1](Deliverable2_1.png)
+
+- lot_summary dataframe
+
+![Deliverable2_2](Deliverable2_2.png)
+
+
+
