@@ -62,3 +62,16 @@
 - What this tells us is that Lot 3 has to be looked at and checked. 
 
 ## Study Design: MechaCar vs Competition
+Using your knowledge of R, design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
+
+- This study would collect data from MechaCar and its several competitive manufacturers from the last 5 years. 
+
+#### Metrics
+- Safety Rating: Independent Vaviable
+- Current Selling Price: Dependent Vaviable
+- Highway Fuel Efficiency: Independent Vaviable
+- Horse Power: Independent Vaviable
+- Maintenance Cost: Independent Vaviable
+
+#### Hypothesis
+- Null hypothesis(Ho) = MechaCar's price is 
