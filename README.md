@@ -35,6 +35,7 @@
 ## T-Tests on Suspension Coils
 
 - summary of the t-test results across all manufacturing lots
+
 ![Deliverable3_1](Deliverable3_1.png)
 
   - Assuming our significance level is 0.05 percent, our p-value 0.06 is above our significance level. 
