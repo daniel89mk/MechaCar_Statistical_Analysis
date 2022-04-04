@@ -34,7 +34,7 @@
 
 ## T-Tests on Suspension Coils
 
-##### Summary of the t-test results across all manufacturing lots
+#### Summary of the t-test results across all manufacturing lots
 
 ![Deliverable3_1](Deliverable3_1.png)
 
@@ -42,7 +42,7 @@
   - Therefore, we do not have sufficient evidence to reject the null hyphothesis and we would state that the mean of all 3 manufacturing lots 
       is statistically similar to the presumed population mean of 1500. 
 
-##### Summary of the t-test results for individual manufacturing lots
+#### Summary of the t-test results for individual manufacturing lots
 
 ![Deliverable3_lot1](Deliverable3_lot1.png)
 
