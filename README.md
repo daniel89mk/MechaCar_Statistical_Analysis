@@ -60,3 +60,5 @@
        are statistically different. 
 
 - What this tells us is that Lot 3 has to be looked at and checked. 
+
+## Study Design: MechaCar vs Competition
