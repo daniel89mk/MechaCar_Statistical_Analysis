@@ -6,7 +6,7 @@
 ![Deliverable1_1](Deliverable1_1.png)
 ![Deliverable1_2](Deliverable1_2.png)
 
-##### By the screenshot of the output from the linear regression:
+#### By the screenshot of the output from the linear regression:
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
   - Vehicle length and ground clearance are statistically unlikely to provide random amounts of variance to the linear model, 
       in other words, Vehicle length and Ground clearance have a significant impact on the MPG. 
