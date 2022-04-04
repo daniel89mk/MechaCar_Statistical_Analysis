@@ -1,6 +1,6 @@
 # MechaCar_Statistical_Analysis using R 
 
-## Linear Regression to Predic MPG
+## Linear Regression to Predict MPG
 - Columns: vehicle_length, vehicle_weight, spoiler_angle, ground_clearance, and AWD
 
 ![Deliverable1_1](Deliverable1_1.png)
@@ -19,3 +19,4 @@
   - Yes, this muliple linear regression model predicts the MPG of MechaCar prototypes effectively because the r-squared value is 0.71 which
      can tell us that probability metric to determine the likelihood that the future data points will fit this linear model. 
   
+## Summary Statistics on Suspension Coils
