@@ -20,3 +20,15 @@
      can tell us that probability metric to determine the likelihood that the future data points will fit this linear model. 
   
 ## Summary Statistics on Suspension Coils
+- total_summary dataframe
+
+![Deliverable2_1](Deliverable2_1.png)
+
+- lot_summary dataframe
+
+![Deliverable2_2](Deliverable2_2.png)
+
+  - The variance of the coils is 62.29 PSI(pounds per square inch) that is within 100 PSI, which tells us that the current manufacturing lots in total
+     meets the requirement easily. 
+  - However, if we think of each lot individually, the situation becomes different. Lot1 and Lot 2 are well within the 100 PSI but Lot3 has much bigger variance(170).
+
