@@ -64,14 +64,19 @@
 ## Study Design: MechaCar vs Competition
 Using your knowledge of R, design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
 
-- This study would collect data from MechaCar and its several competitive manufacturers from the last 5 years. 
+- This study would need performance data (with the metrics listed below) from MechaCar and its several competitive manufacturers from the last 5 years. 
 
 #### Metrics
-- Safety Rating: Independent Vaviable
-- Current Selling Price: Dependent Vaviable
-- Highway Fuel Efficiency: Independent Vaviable
-- Horse Power: Independent Vaviable
-- Maintenance Cost: Independent Vaviable
+- Safety Rating: Independent Variable
+- Current Selling Price: Dependent Variable
+- Highway Fuel Efficiency: Independent Variable
+- Horse Power: Independent Variable
+- Maintenance Cost: Independent Variable
 
 #### Hypothesis
-- Null hypothesis(Ho) = MechaCar's price is 
+- Null hypothesis(Ho) = MechaCar's price is reasonable according to their performance factors
+- Alternative hypothesis (Ha) = MechaCar's price is not reasonable according to their performance factors
+
+#### Statistical Test
+- Multiple Linear Regression : to use on the MechaCar's data with multiple variables to see if there is high correlation for the selling price(dependent variable).
+
