@@ -3,8 +3,8 @@
 ## Linear Regression to Predict MPG
 - Columns: vehicle_length, vehicle_weight, spoiler_angle, ground_clearance, and AWD
 
-![Deliverable1_1](Deliverable1_1.png)
-![Deliverable1_2](Deliverable1_2.png)
+![Deliverable1_1](Resources/Deliverable1_1.png)
+![Deliverable1_2](Resources/Deliverable1_2.png)
 
 #### By the screenshot of the output from the linear regression:
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
@@ -22,11 +22,11 @@
 ## Summary Statistics on Suspension Coils
 - total_summary dataframe
 
-![Deliverable2_1](Deliverable2_1.png)
+![Deliverable2_1](Resources/Deliverable2_1.png)
 
 - lot_summary dataframe
 
-![Deliverable2_2](Deliverable2_2.png)
+![Deliverable2_2](Resources/Deliverable2_2.png)
 
   - The variance of the coils is 62.29 PSI(pounds per square inch) that is within 100 PSI, which tells us that the current manufacturing lots in total
      meets the requirement easily. 
@@ -36,7 +36,7 @@
 
 #### Summary of the t-test results across all manufacturing lots
 
-![Deliverable3_1](Deliverable3_1.png)
+![Deliverable3_1](Resources/Deliverable3_1.png)
 
   - Assuming our significance level is 0.05 percent, our p-value 0.06 is above our significance level. 
   - Therefore, we do not have sufficient evidence to reject the null hyphothesis and we would state that the mean of all 3 manufacturing lots 
@@ -44,11 +44,11 @@
 
 #### Summary of the t-test results for individual manufacturing lots
 
-![Deliverable3_lot1](Deliverable3_lot1.png)
+![Deliverable3_lot1](Resources/Deliverable3_lot1.png)
 
-![Deliverable3_lot2](Deliverable3_lot2.png)
+![Deliverable3_lot2](Resources/Deliverable3_lot2.png)
 
-![Deliverable3_lot3](Deliverable3_lot3.png)
+![Deliverable3_lot3](Resources/Deliverable3_lot3.png)
 
   - 1. Lot 1 sample actually has true sample mean of 1500, and with p-value of 1, we cannot reject the null hypothesis and 
       there is no statistical difference between observed sample mean and the presumed population mean of 1500. 
