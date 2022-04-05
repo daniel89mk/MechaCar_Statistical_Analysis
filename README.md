@@ -3,10 +3,10 @@
 ## Linear Regression to Predict MPG
 - Columns: vehicle_length, vehicle_weight, spoiler_angle, ground_clearance, and AWD
 
-![Deliverable1_1](Deliverable1_1.png)
-![Deliverable1_2](Deliverable1_2.png)
+![Deliverable1_1](Resources/Deliverable1_1.png)
+![Deliverable1_2](Resources/Deliverable1_2.png)
 
-##### By the screenshot of the output from the linear regression:
+#### By the screenshot of the output from the linear regression:
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
   - Vehicle length and ground clearance are statistically unlikely to provide random amounts of variance to the linear model, 
       in other words, Vehicle length and Ground clearance have a significant impact on the MPG. 
@@ -22,13 +22,56 @@
 ## Summary Statistics on Suspension Coils
 - total_summary dataframe
 
-![Deliverable2_1](Deliverable2_1.png)
+![Deliverable2_1](Resources/Deliverable2_1.png)
 
 - lot_summary dataframe
 
-![Deliverable2_2](Deliverable2_2.png)
+![Deliverable2_2](Resources/Deliverable2_2.png)
 
   - The variance of the coils is 62.29 PSI(pounds per square inch) that is within 100 PSI, which tells us that the current manufacturing lots in total
      meets the requirement easily. 
   - However, if we think of each lot individually, the situation becomes different. Lot1 and Lot 2 are well within the 100 PSI but Lot3 has much bigger variance(170).
 
+## T-Tests on Suspension Coils
+
+#### Summary of the t-test results across all manufacturing lots
+
+![Deliverable3_1](Resources/Deliverable3_1.png)
+
+  - Assuming our significance level is 0.05 percent, our p-value 0.06 is above our significance level. 
+  - Therefore, we do not have sufficient evidence to reject the null hyphothesis and we would state that the mean of all 3 manufacturing lots 
+      is statistically similar to the presumed population mean of 1500. 
+
+#### Summary of the t-test results for individual manufacturing lots
+
+![Deliverable3_lot1](Resources/Deliverable3_lot1.png)
+
+![Deliverable3_lot2](Resources/Deliverable3_lot2.png)
+
+![Deliverable3_lot3](Resources/Deliverable3_lot3.png)
+
+  - 1. Lot 1 sample actually has true sample mean of 1500, and with p-value of 1, we cannot reject the null hypothesis and 
+      there is no statistical difference between observed sample mean and the presumed population mean of 1500. 
+  - 2. Lot 2 sample has p-value of 0.6072 which is way above our significance level of 0.05 percent. 
+       Therefore we do not have sufficient evidence to reject the null hyphothesis and we can state that the mean from the presumed population and
+       the observed sample are similar
+  - 3. Lot 3 sample has p-value of 0.0417 which is below our significance level of 0.05 percent.
+       Therefore we have sufficient evidence to reject the null hypothesis and we can state that the observed sample mean and the presumed poluation mean of 1500
+       are statistically different. 
+
+- What this tells us is that Lot 3 has to be looked at and checked. 
+
+## Study Design: MechaCar vs Competition
+Using your knowledge of R, design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
+
+- This study would collect data from MechaCar and its several competitive manufacturers from the last 5 years. 
+
+#### Metrics
+- Safety Rating: Independent Vaviable
+- Current Selling Price: Dependent Vaviable
+- Highway Fuel Efficiency: Independent Vaviable
+- Horse Power: Independent Vaviable
+- Maintenance Cost: Independent Vaviable
+
+#### Hypothesis
+- Null hypothesis(Ho) = MechaCar's price is 
